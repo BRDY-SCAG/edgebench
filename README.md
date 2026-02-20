@@ -16,7 +16,7 @@ There's no centralized, reproducible database of local LLM performance across re
 
 ```bash
 # 1. Clone and install
-git clone https://github.com/yourusername/edgebench
+git clone https://github.com/BRDY-SCAG/edgebench
 cd edgebench
 pip install -r requirements.txt
 
@@ -61,9 +61,11 @@ For now, feel free to manually open a PR adding your result file to `submissions
 
 ## Hardware tested so far
 
-| Hardware | Model | Avg tok/s | Submitted by |
-|---|---|---|---|
-| *Your results here* | | | |
+<!-- DASHBOARD_START -->
+| Hardware | Model | Avg tok/s | TTFT (ms) | OS | Submitted by |
+|---|---|---|---|---|---|
+| Apple M3 Pro (18.0GB unified) | llama3.2:3b | 61.59 | 65.5 | Darwin 25.3.0 | BRDY-SCAG |
+<!-- DASHBOARD_END -->
 
 ---
 
