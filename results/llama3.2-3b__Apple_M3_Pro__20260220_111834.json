@@ -1,0 +1,148 @@
+{
+  "schema_version": "0.1",
+  "backend": "ollama",
+  "model": "llama3.2:3b",
+  "hardware": {
+    "os": "Darwin 25.3.0",
+    "cpu": "Apple M3 Pro",
+    "ram_gb": 18.0,
+    "gpu": "Apple M3 Pro",
+    "arch": "arm64"
+  },
+  "config": {
+    "runs_per_prompt": 3,
+    "temperature": 0,
+    "seed": 42,
+    "max_tokens": 128
+  },
+  "results": [
+    {
+      "prompt_id": "short_factual",
+      "category": "factual",
+      "runs": [
+        {
+          "response": "The capital of France is Paris.",
+          "total_time_ms": 361.19,
+          "tokens_generated": 8,
+          "tokens_per_second": 68.24,
+          "prompt_tokens": 37,
+          "prompt_tokens_per_second": 333.47,
+          "time_to_first_token_ms": 110.95
+        },
+        {
+          "response": "The capital of France is Paris.",
+          "total_time_ms": 254.25,
+          "tokens_generated": 8,
+          "tokens_per_second": 67.61,
+          "prompt_tokens": 37,
+          "prompt_tokens_per_second": 2067.4,
+          "time_to_first_token_ms": 17.9
+        },
+        {
+          "response": "The capital of France is Paris.",
+          "total_time_ms": 219.53,
+          "tokens_generated": 8,
+          "tokens_per_second": 68.71,
+          "prompt_tokens": 37,
+          "prompt_tokens_per_second": 2109.02,
+          "time_to_first_token_ms": 17.54
+        }
+      ],
+      "aggregate": {
+        "tokens_per_second_avg": 68.19,
+        "tokens_per_second_min": 67.61,
+        "tokens_per_second_max": 68.71,
+        "tokens_per_second_stdev": 0.55,
+        "time_to_first_token_avg_ms": 48.8,
+        "total_time_avg_ms": 278.32
+      }
+    },
+    {
+      "prompt_id": "short_reasoning",
+      "category": "reasoning",
+      "runs": [
+        {
+          "response": "To find the distance traveled, multiply the speed (miles per hour) by the time (hours):\n\nDistance = Speed x Time\n= 60 mph x 2 hours\n= 120 miles\n\nThe train travels 120 miles in 2 hours.",
+          "total_time_ms": 1023.56,
+          "tokens_generated": 53,
+          "tokens_per_second": 61.39,
+          "prompt_tokens": 50,
+          "prompt_tokens_per_second": 818.35,
+          "time_to_first_token_ms": 61.1
+        },
+        {
+          "response": "To find the distance traveled, multiply the speed (miles per hour) by the time (hours):\n\nDistance = Speed x Time\n= 60 mph x 2 hours\n= 120 miles\n\nThe train travels 120 miles in 2 hours.",
+          "total_time_ms": 979.54,
+          "tokens_generated": 53,
+          "tokens_per_second": 61.22,
+          "prompt_tokens": 50,
+          "prompt_tokens_per_second": 2892.83,
+          "time_to_first_token_ms": 17.28
+        },
+        {
+          "response": "To find the distance traveled, multiply the speed (miles per hour) by the time (hours):\n\nDistance = Speed x Time\n= 60 mph x 2 hours\n= 120 miles\n\nThe train travels 120 miles in 2 hours.",
+          "total_time_ms": 983.81,
+          "tokens_generated": 53,
+          "tokens_per_second": 61.24,
+          "prompt_tokens": 50,
+          "prompt_tokens_per_second": 2884.53,
+          "time_to_first_token_ms": 17.33
+        }
+      ],
+      "aggregate": {
+        "tokens_per_second_avg": 61.28,
+        "tokens_per_second_min": 61.22,
+        "tokens_per_second_max": 61.39,
+        "tokens_per_second_stdev": 0.09,
+        "time_to_first_token_avg_ms": 31.9,
+        "total_time_avg_ms": 995.64
+      }
+    },
+    {
+      "prompt_id": "short_creative",
+      "category": "creative",
+      "runs": [
+        {
+          "response": "As the day's final moments unfolded, a kaleidoscope of warm hues danced across the horizon, casting a golden glow over the vast expanse of the ocean as the sun slowly dipped into the waves.",
+          "total_time_ms": 840.72,
+          "tokens_generated": 42,
+          "tokens_per_second": 61.57,
+          "prompt_tokens": 36,
+          "prompt_tokens_per_second": 572.44,
+          "time_to_first_token_ms": 62.89
+        },
+        {
+          "response": "As the day's final moments unfolded, a kaleidoscope of warm hues danced across the horizon, casting a golden glow over the vast expanse of the ocean as the sun slowly dipped into the waves.",
+          "total_time_ms": 792.1,
+          "tokens_generated": 42,
+          "tokens_per_second": 61.71,
+          "prompt_tokens": 36,
+          "prompt_tokens_per_second": 2086.48,
+          "time_to_first_token_ms": 17.25
+        },
+        {
+          "response": "As the day's final moments unfolded, a kaleidoscope of warm hues danced across the horizon, casting a golden glow over the vast expanse of the ocean as the sun slowly dipped into the waves.",
+          "total_time_ms": 795.91,
+          "tokens_generated": 42,
+          "tokens_per_second": 61.64,
+          "prompt_tokens": 36,
+          "prompt_tokens_per_second": 2083.73,
+          "time_to_first_token_ms": 17.28
+        }
+      ],
+      "aggregate": {
+        "tokens_per_second_avg": 61.64,
+        "tokens_per_second_min": 61.57,
+        "tokens_per_second_max": 61.71,
+        "tokens_per_second_stdev": 0.07,
+        "time_to_first_token_avg_ms": 32.47,
+        "total_time_avg_ms": 809.58
+      }
+    }
+  ],
+  "summary": {
+    "overall_avg_tokens_per_second": 63.7,
+    "overall_min_tokens_per_second": 61.28,
+    "overall_max_tokens_per_second": 68.19
+  }
+}
