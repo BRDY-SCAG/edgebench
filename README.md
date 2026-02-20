@@ -65,6 +65,7 @@ For now, feel free to manually open a PR adding your result file to `submissions
 | Hardware | Model | Avg tok/s | TTFT (ms) | OS | Submitted by |
 |---|---|---|---|---|---|
 | Apple M3 Pro (18.0GB unified) | llama3.2:3b | 61.59 | 65.5 | Darwin 25.3.0 | BRDY-SCAG |
+| Apple M3 Pro (18.0GB unified) | mlx-community/Llama-3.2-3B-Instruct-4bit | 72.21 | 0.0 | Darwin 25.3.0 | BRDY-SCAG |
 <!-- DASHBOARD_END -->
 
 ---
