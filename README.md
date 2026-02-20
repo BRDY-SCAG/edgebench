@@ -50,7 +50,7 @@ For now, feel free to manually open a PR adding your result file to `submissions
 ## Roadmap
 
 - [x] Ollama backend
-- [ ] MLX backend (Apple Silicon)
+- [x] MLX backend (Apple Silicon)
 - [ ] llama.cpp direct backend
 - [ ] `edgebench submit` command (auto PR to this repo)
 - [ ] Auto-generated community dashboard
