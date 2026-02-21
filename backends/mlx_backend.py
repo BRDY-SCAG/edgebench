@@ -97,8 +97,8 @@ class MLXBackend:
 
         total_time_ms = (end_time - start_time) * 1000
 
-        if first_response and first_response.prompt_tps > 0:
-            ttft_ms = (first_response.prompt_tokens / first_response.prompt_tps) * 1000
+        if last_response and last_response.prompt_tps > 0:
+            ttft_ms = (last_response.prompt_tokens / last_response.prompt_tps) * 1000
         else:
             ttft_ms = 0
 
