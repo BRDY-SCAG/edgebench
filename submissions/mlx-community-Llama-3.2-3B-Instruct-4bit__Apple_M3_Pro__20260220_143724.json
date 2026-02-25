@@ -22,39 +22,39 @@
       "runs": [
         {
           "response": "The capital of France is Paris.",
-          "total_time_ms": 317.02,
+          "total_time_ms": 296.3,
           "tokens_generated": 8,
-          "tokens_per_second": 77.99,
+          "tokens_per_second": 78.5,
           "prompt_tokens": 47,
-          "prompt_tokens_per_second": 301.23,
+          "prompt_tokens_per_second": 354.56,
           "time_to_first_token_ms": 0
         },
         {
           "response": "The capital of France is Paris.",
-          "total_time_ms": 273.03,
+          "total_time_ms": 294.43,
           "tokens_generated": 8,
-          "tokens_per_second": 77.7,
+          "tokens_per_second": 78.58,
           "prompt_tokens": 47,
-          "prompt_tokens_per_second": 442.85,
+          "prompt_tokens_per_second": 439.49,
           "time_to_first_token_ms": 0
         },
         {
           "response": "The capital of France is Paris.",
-          "total_time_ms": 267.73,
+          "total_time_ms": 270.91,
           "tokens_generated": 8,
-          "tokens_per_second": 77.23,
+          "tokens_per_second": 78.35,
           "prompt_tokens": 47,
-          "prompt_tokens_per_second": 444.09,
+          "prompt_tokens_per_second": 442.51,
           "time_to_first_token_ms": 0
         }
       ],
       "aggregate": {
-        "tokens_per_second_avg": 77.64,
-        "tokens_per_second_min": 77.23,
-        "tokens_per_second_max": 77.99,
-        "tokens_per_second_stdev": 0.38,
+        "tokens_per_second_avg": 78.48,
+        "tokens_per_second_min": 78.35,
+        "tokens_per_second_max": 78.58,
+        "tokens_per_second_stdev": 0.12,
         "time_to_first_token_avg_ms": 0,
-        "total_time_avg_ms": 285.93
+        "total_time_avg_ms": 287.21
       }
     },
     {
@@ -63,39 +63,39 @@
       "runs": [
         {
           "response": "To find the distance traveled, multiply the speed (60 miles per hour) by the time (2 hours).\n\nDistance = Speed x Time\n= 60 miles/hour x 2 hours\n= 120 miles\n\nThe train travels 120 miles.",
-          "total_time_ms": 920.08,
+          "total_time_ms": 911.89,
           "tokens_generated": 52,
-          "tokens_per_second": 69.06,
+          "tokens_per_second": 69.83,
           "prompt_tokens": 60,
-          "prompt_tokens_per_second": 560.39,
+          "prompt_tokens_per_second": 560.27,
           "time_to_first_token_ms": 0
         },
         {
           "response": "To find the distance traveled, multiply the speed (60 miles per hour) by the time (2 hours).\n\nDistance = Speed x Time\n= 60 miles/hour x 2 hours\n= 120 miles\n\nThe train travels 120 miles.",
-          "total_time_ms": 920.56,
+          "total_time_ms": 912.4,
           "tokens_generated": 52,
-          "tokens_per_second": 69.13,
+          "tokens_per_second": 69.79,
           "prompt_tokens": 60,
-          "prompt_tokens_per_second": 560.72,
+          "prompt_tokens_per_second": 560.07,
           "time_to_first_token_ms": 0
         },
         {
           "response": "To find the distance traveled, multiply the speed (60 miles per hour) by the time (2 hours).\n\nDistance = Speed x Time\n= 60 miles/hour x 2 hours\n= 120 miles\n\nThe train travels 120 miles.",
-          "total_time_ms": 915.35,
+          "total_time_ms": 913.67,
           "tokens_generated": 52,
-          "tokens_per_second": 69.31,
+          "tokens_per_second": 69.62,
           "prompt_tokens": 60,
-          "prompt_tokens_per_second": 562.06,
+          "prompt_tokens_per_second": 558.07,
           "time_to_first_token_ms": 0
         }
       ],
       "aggregate": {
-        "tokens_per_second_avg": 69.17,
-        "tokens_per_second_min": 69.06,
-        "tokens_per_second_max": 69.31,
-        "tokens_per_second_stdev": 0.13,
+        "tokens_per_second_avg": 69.75,
+        "tokens_per_second_min": 69.62,
+        "tokens_per_second_max": 69.83,
+        "tokens_per_second_stdev": 0.11,
         "time_to_first_token_avg_ms": 0,
-        "total_time_avg_ms": 918.66
+        "total_time_avg_ms": 912.65
       }
     },
     {
@@ -104,46 +104,46 @@
       "runs": [
         {
           "response": "As the day's final moments unfolded, a kaleidoscope of colors danced across the sky, with the sun's fiery descent into the ocean casting a warm, golden glow over the waves.",
-          "total_time_ms": 725.74,
+          "total_time_ms": 721.97,
           "tokens_generated": 39,
-          "tokens_per_second": 69.63,
+          "tokens_per_second": 69.93,
           "prompt_tokens": 46,
-          "prompt_tokens_per_second": 435.16,
+          "prompt_tokens_per_second": 435.69,
           "time_to_first_token_ms": 0
         },
         {
           "response": "As the day's final moments unfolded, a kaleidoscope of colors danced across the sky, with the sun's fiery descent into the ocean casting a warm, golden glow over the waves.",
-          "total_time_ms": 724.42,
+          "total_time_ms": 720.23,
           "tokens_generated": 39,
-          "tokens_per_second": 69.81,
+          "tokens_per_second": 70.3,
           "prompt_tokens": 46,
-          "prompt_tokens_per_second": 435.03,
+          "prompt_tokens_per_second": 434.28,
           "time_to_first_token_ms": 0
         },
         {
           "response": "As the day's final moments unfolded, a kaleidoscope of colors danced across the sky, with the sun's fiery descent into the ocean casting a warm, golden glow over the waves.",
-          "total_time_ms": 722.83,
+          "total_time_ms": 724.06,
           "tokens_generated": 39,
-          "tokens_per_second": 70.0,
+          "tokens_per_second": 69.74,
           "prompt_tokens": 46,
-          "prompt_tokens_per_second": 435.72,
+          "prompt_tokens_per_second": 435.07,
           "time_to_first_token_ms": 0
         }
       ],
       "aggregate": {
-        "tokens_per_second_avg": 69.81,
-        "tokens_per_second_min": 69.63,
-        "tokens_per_second_max": 70.0,
-        "tokens_per_second_stdev": 0.19,
+        "tokens_per_second_avg": 69.99,
+        "tokens_per_second_min": 69.74,
+        "tokens_per_second_max": 70.3,
+        "tokens_per_second_stdev": 0.28,
         "time_to_first_token_avg_ms": 0,
-        "total_time_avg_ms": 724.33
+        "total_time_avg_ms": 722.09
       }
     }
   ],
   "summary": {
-    "overall_avg_tokens_per_second": 72.21,
-    "overall_min_tokens_per_second": 69.17,
-    "overall_max_tokens_per_second": 77.64
+    "overall_avg_tokens_per_second": 72.74,
+    "overall_min_tokens_per_second": 69.75,
+    "overall_max_tokens_per_second": 78.48
   },
   "meta": {
     "submitted_by": "BRDY-SCAG"
